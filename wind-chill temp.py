@@ -8,8 +8,7 @@ while v < 2 :
     print ("Speed must be greater than or equal to 2")
     v = int(input("Please re-enter the wind speed miles per hour :")) 
 else :
-    twc = 35.74 + 0.6215*ta - 35.75*(v**0.16) + 0.4275*ta*(v**16)
+    twc = 35.74 + 0.6215*ta - 35.75*(v**0.16) + 0.4275*ta*(v**0.16)
 
 print ("%2.3f"%twc)
 
-# still in progress
