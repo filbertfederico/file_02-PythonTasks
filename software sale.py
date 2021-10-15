@@ -17,4 +17,4 @@ else :
     disc = (99*x*(y/100))
     total = (99*x)-(99*x*(y/100))
     print("discount amount @ {}% : $ {:.2f}".format(y,disc))
-    print("total amount : ${:,.2f}".format(total))
+    print("total amount : $ {:,.2f}".format(total))
